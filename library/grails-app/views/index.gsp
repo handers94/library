@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta name="layout" content="main"/>
+
 		<title>Welcome to Grails</title>
 		<style type="text/css" media="screen">
-			
+	
+				
 			#status h1 {
 				text-transform: uppercase;
-				font-size: 1.1em;
+				font-size: 1.8em;
 				margin: 0 0 0.3em;
-
+				background-color: red;
+				font-family: sans-serif;
 
 			p {
 				line-height: 1.5;
