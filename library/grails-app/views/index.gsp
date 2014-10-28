@@ -1,27 +1,37 @@
 <!DOCTYPE html>
 <html>
 	<head>
-
-		<title>Welcome to Grails</title>
-		<style type="text/css" media="screen">
-	
-				
-			#status h1 {
-				text-transform: uppercase;
-				font-size: 1.8em;
-				margin: 0 0 0.3em;
-				background-color: red;
-				font-family: sans-serif;
-
-			p {
-				line-height: 1.5;
-				margin: 0.25em 0;
-			}
-
-
-		</style>
+		<meta name="layout" content="main"/>
+		<title>The University Enrolment System</title>
 	</head>
+
 	<body>
-		lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+	 <div id="welcome">
+	  <br />
+	   <h3>Welcome to The University Enrolment System</h3>
+	   <p>Lorem ipsum</p>
+	 </div>
+	 <div class="homeCell">
+	  <h3>Add a Course</h3>
+	  <p>Lorem ipsum</p>
+	  <span class="buttons">
+	   <g:link controller="course" action="index">Add Course</g:link>
+	  </span>
+	 </div>
+	 <div class ="homeCell">
+	  <h3>Add Student</h3>
+	  <p>Lorem ipsum</p>
+	  <span class ="buttons">
+	   <g:link controller="student" action="create"> Add Student</g:link>
+	  </span>
+	 </div>
+	 <div class ="homeCell">
+	  <h3>About the modules</h3>
+	  <p>Lorem ipsum</p>
+	  <span class ="buttons">
+	   <g:link controller="module" action="create"> Add Module</g:link>
+	  </span>
+	 </div>
 	</body>
 </html>
+
