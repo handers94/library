@@ -26,10 +26,24 @@
 	  </span>
 	 </div>
 	 <div class ="homeCell">
-	  <h3>About the modules</h3>
+	  <h3>Add Book</h3>
 	  <p>Lorem ipsum</p>
 	  <span class ="buttons">
-	   <g:link controller="module" action="create"> Add Module</g:link>
+	   <g:link controller="book" action="create"> Add Book</g:link>
+	  </span>
+	 </div>
+	 <div class ="homeCell">
+	  <h3>Add Library</h3>
+	  <p>Lorem ipsum</p>
+	  <span class ="buttons">
+	   <g:link controller="library" action="create"> Add Library</g:link>
+	  </span>
+	 </div>
+	 <div class ="homeCell">
+	  <h3>Add Librarian</h3>
+	  <p>Lorem ipsum</p>
+	  <span class ="buttons">
+	   <g:link controller="librarian" action="create"> Add Librarian</g:link>
 	  </span>
 	 </div>
 	</body>
